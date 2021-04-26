@@ -1,7 +1,7 @@
 PennController.ResetPrefix(null); //Initiates PennController
 var showProgressBar = false;
 //PennController.DebugOff()
-PennController.AddHost("https://raw.githubusercontent.com/awpzs/Pronoun_HI/main/images/")
+PennController.AddHost("https://raw.githubusercontent.com/langproexp/Pronoun_HI/main/images/")
 PennController.AddHost("https://raw.githubusercontent.com/awpzs/Number_ENG_Exp4/main/images_fillers/")
 
 Sequence( "initRecorder", "mic_check_1", "mic_check_2", "setcounter", "information", "survey", "identification", "recording_information",  "instruction", "prac", "exp_start", "exp_block1", "rest", "exp_block2", "send", "final" )
